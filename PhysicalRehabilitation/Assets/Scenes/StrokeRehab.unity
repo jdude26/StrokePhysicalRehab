@@ -282,6 +282,7 @@ MonoBehaviour:
   SkipButtonName: Jump
   TriggerButtonName: Fire1
   Delay: 0
+  hasTriggered: 0
 --- !u!4 &152257002
 Transform:
   m_ObjectHideFlags: 0
@@ -2059,7 +2060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   avatarModel: {fileID: 1431909217}
   poseModel: {fileID: 1948534243}
-  poseJoints: 05000000090000001500000017000000110000000d0000000f000000130000000400000008000000
+  poseJoints: 05000000090000001500000017000000110000000d0000000f000000130000000400000008000000100000000c000000
   poseJointsSaver: 
   matchThreshold: 0.7
   infoText: {fileID: 1456166596}

@@ -387,12 +387,6 @@
     <Reference Include="nunit.framework">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.7f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="OpenNI.Net">
-      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Assets/Cinema Suite/Cinema Mocap/System/Core/Zigfu/OpenNI.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="ZDK_Editor">
-      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Assets/Cinema Suite/Cinema Mocap/System/Core/Zigfu/ZDK_Editor.dll</HintPath>
-    </Reference>
     <Reference Include="nuitrack.net">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Assets/K2Examples/KinectScripts/Interfaces/Nuitrack/nuitrack.net.dll</HintPath>
     </Reference>

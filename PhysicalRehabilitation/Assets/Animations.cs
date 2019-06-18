@@ -6,7 +6,7 @@ public class Animations : MonoBehaviour
 {
     // Start is called before the first frame update
     private Animator anim;
-    private string[] states = new string[] { "Welcome", "Sit", "HandHeart", "LiftElbow", "ExtendLeft", "Armrest", "SitInstructions", "ScootFeet", "LeanForward", "Stand", "ShoulderFeet", "LungeLeft", "StepBackward", "LungeRight" };
+    private string[] states = new string[] { "Welcome", "Sit", "HandHeart", "LiftElbow", "ExtendLeft", "Armrest", "SitInstructions", "ScootFeet", "LeanForward", "Stand", "ShoulderFeet", "LungeLeft", "StepBackward", "LungeRight", "StepBackward", "Finished" };
     private int currentIndex = -1;
 
 
@@ -35,7 +35,6 @@ public class Animations : MonoBehaviour
         {
             if (null != anim)
             {
-                // play Bounce but start at a quarter of the way though
                 if(currentIndex < states.Length - 1)
                 {
                     currentIndex++;
@@ -49,7 +48,6 @@ public class Animations : MonoBehaviour
         {
             if (null != anim)
             {
-                // play Bounce but start at a quarter of the way though
                 if (currentIndex - 1 > -1)
                 {
                     currentIndex--;
@@ -154,6 +152,33 @@ public class Animations : MonoBehaviour
                 }
             }
         }
-
+        if (Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            PlaySound("RelaxShoulders");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            PlaySound("StraightenArm");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            PlaySound("DontLockKnee");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            PlaySound("StepFurther");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            PlaySound("LeanLess");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            PlaySound("StraighterKnee");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            PlaySound("Harder1Side");
+        }
     }
 }
