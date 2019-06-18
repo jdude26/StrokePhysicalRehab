@@ -6,12 +6,27 @@ public class Animations : MonoBehaviour
 {
     // Start is called before the first frame update
     private Animator anim;
-    private string[] states = new string[] { "Welcome", "Sit", "HandHeart", "ExtendLeft", "Armrest", "ScootFeet", "LeanForward", "Stand", "ShoulderFeet", "LungeRight", "LungeLeft" };
+    private string[] states = new string[] { "Welcome", "Sit", "HandHeart", "LiftElbow", "ExtendLeft", "Armrest", "SitInstructions", "ScootFeet", "LeanForward", "Stand", "ShoulderFeet", "LungeRight", "LungeLeft" };
     private int currentIndex = -1;
+
 
     void Start()
     {
         anim = GetComponent<Animator>();
+    }
+
+    void PlaySound(string resource)
+    {
+        AudioSource audio = gameObject.AddComponent<AudioSource>();
+        AudioClip clip = (AudioClip)Resources.Load(resource);
+        if (clip != null)
+        {
+            audio.PlayOneShot(clip);
+        }
+        //else
+        //{
+            //Debug.Log("Attempted to play missing audio clip by name" + resource);​
+        //}​
     }
 
     void Update()
@@ -25,6 +40,7 @@ public class Animations : MonoBehaviour
                 {
                     currentIndex++;
                     anim.Play(states[currentIndex]);
+                    PlaySound(states[currentIndex]);
                 }
                 
             }
