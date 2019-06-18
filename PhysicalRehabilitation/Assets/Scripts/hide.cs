@@ -7,7 +7,6 @@ public class hide : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         hideThis.GetComponent<Renderer>().enabled = false;
-
         //hideThis.GetComponent<Renderer>().
 
 
