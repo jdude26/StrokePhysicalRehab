@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/StrokeRehab.unity
+- path: Assets/K2Examples/KinectDemos/BackgroundRemovalDemo/KinectBackgroundRemoval3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
