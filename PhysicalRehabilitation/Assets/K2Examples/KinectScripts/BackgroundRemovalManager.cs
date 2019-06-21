@@ -19,7 +19,10 @@ public class BackgroundRemovalManager : MonoBehaviour
 	[Tooltip("Whether the hi-res (color camera resolution) is preferred for the foreground image. Otherwise the depth camera resolution will be used.")]
 	public bool colorCameraResolution = true;
 
-	[Tooltip("Whether only the body alpha texture is needed.")]
+    [Tooltip("Whether to use Jared's Outliner.")]
+    public bool jaredOutline = true;
+
+    [Tooltip("Whether only the body alpha texture is needed.")]
 	public bool computeBodyTexOnly = false;
 
 	[Tooltip("Whether the color texture will be inverted or not. Leave disabled for silhouettes, enable for background.")]
@@ -348,7 +351,9 @@ public class BackgroundRemovalManager : MonoBehaviour
 			bool bKinect1Int = sensorData != null && sensorData.sensorInterface != null ?
 				(sensorData.sensorInterface.GetSensorPlatform() == KinectInterop.DepthSensorPlatform.KinectSDKv1) : false;
 
-			if(computeBodyTexOnly && sensorData != null && sensorData.alphaBodyTexture)
+
+
+			 if(computeBodyTexOnly && sensorData != null && sensorData.alphaBodyTexture)
 			{
 				GUI.DrawTexture(foregroundRect, sensorData.alphaBodyTexture);
 			}
@@ -365,7 +370,7 @@ public class BackgroundRemovalManager : MonoBehaviour
 			else if(foregroundTex)
 			{
 				//GUI.DrawTexture(foregroundRect, sensorData.alphaBodyTexture);
-				GUI.DrawTexture(foregroundRect, foregroundTex);
+				
 			}
 		}
 	}
