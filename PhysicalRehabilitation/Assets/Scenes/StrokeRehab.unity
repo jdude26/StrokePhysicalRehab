@@ -1960,14 +1960,14 @@ MonoBehaviour:
   maxTrackedUsers: 2
   showTrackedUsersOnly: 1
   userDetectionOrder: 0
-  ignoreInferredJoints: 0
+  ignoreInferredJoints: 1
   ignoreZCoordinates: 0
   lateUpdateAvatars: 0
   skipRemoteAvatars: 0
-  smoothing: 2
+  smoothing: 4
   useBoneOrientationConstraints: 0
   estimateJointVelocities: 0
-  velocitySmoothing: 3
+  velocitySmoothing: 4
   allowTurnArounds: 0
   allowedHandRotations: 1
   waitTimeBeforeRemove: 1
@@ -2054,7 +2054,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762920935}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 981d8b4b42176494bb7f5d513fc35469, type: 3}
   m_Name: 

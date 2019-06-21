@@ -309,6 +309,9 @@ public class BackgroundRemovalManager : MonoBehaviour
 			sensorData.dilateIterations = dilateIterations;
 			sensorData.applyMedianFilter = applyMedianFilter;
 
+            //Jared Filters
+            //sensorData.blurBodyMaterial
+
 			// update the background removal
 			bool bSuccess = sensorData.sensorInterface.UpdateBackgroundRemoval(sensorData, colorCameraResolution, defaultColor, computeBodyTexOnly);
 			
