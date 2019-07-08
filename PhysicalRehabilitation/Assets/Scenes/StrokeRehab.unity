@@ -1513,7 +1513,7 @@ GameObject:
   - component: {fileID: 476647341}
   - component: {fileID: 476647340}
   - component: {fileID: 476647339}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: UserImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2266,7 +2266,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
       propertyPath: outlineStrength
-      value: 5
+      value: 1.72
       objectReference: {fileID: 0}
     - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
       propertyPath: outlineColor.r
@@ -2283,7 +2283,23 @@ PrefabInstance:
     - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
       propertyPath: mainCamera
       value: 
-      objectReference: {fileID: 1551283661}
+      objectReference: {fileID: 0}
+    - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
+      propertyPath: solidOutline
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
+      propertyPath: outlineSize
+      value: 1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
+      propertyPath: outlineIterations
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
+      propertyPath: downsampleAmount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 413806, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
