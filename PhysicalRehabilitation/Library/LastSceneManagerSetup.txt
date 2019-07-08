@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/K2Examples/KinectDemos/BackgroundRemovalDemo/KinectBackgroundRemoval3.unity
+- path: Assets/K2Examples/KinectDemos/AvatarsDemo/KinectAvatarsDemo1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

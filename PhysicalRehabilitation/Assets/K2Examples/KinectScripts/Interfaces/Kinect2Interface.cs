@@ -10,7 +10,7 @@ using System;
 public class Kinect2Interface : DepthSensorInterface
 {
 	// change this to false, if you aren't using Kinect-v2 only and want KM to check for available sensors
-	public static bool sensorAlwaysAvailable = true;
+	public static bool sensorAlwaysAvailable = false;
 
 	private KinectInterop.FrameSource sensorFlags;
 	public KinectSensor kinectSensor;

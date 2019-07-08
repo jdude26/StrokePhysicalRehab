@@ -66,6 +66,8 @@
     <Compile Include="Assets\Akishaqs\Characters\Kira\Demo\DemoStuff\Customizable.cs" />
     <Compile Include="Assets\Akishaqs\Characters\Kira\Demo\DemoStuff\DragToRotate.cs" />
     <Compile Include="Assets\Animations.cs" />
+    <Compile Include="Assets\Easy Outline\Behaviours\OutlineSystem.cs" />
+    <Compile Include="Assets\Easy Outline\Demo Scene\Behaviours\DemoBehaviour.cs" />
     <Compile Include="Assets\K2Examples\KinectDemos\AvatarsDemo\Scripts\CameraPitchCorrector.cs" />
     <Compile Include="Assets\K2Examples\KinectDemos\AvatarsDemo\Scripts\OffsetNodeMover.cs" />
     <Compile Include="Assets\K2Examples\KinectDemos\AvatarsDemo\Scripts\UserAvatarMatcher.cs" />
@@ -204,6 +206,9 @@
     <Compile Include="Assets\Scripts\hide.cs" />
     <Compile Include="Assets\Scripts\LeadPhysicalTherapy.cs" />
     <Compile Include="Assets\Scripts\LeadPhysicalTherapy_old.cs" />
+    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\Test.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\WelcomeAudio.cs" />
     <None Include="Assets\K2Examples\Resources\BlurShader.shader" />
     <None Include="Assets\K2Examples\Resources\AstraCoordMapper.compute" />
@@ -213,6 +218,7 @@
     <None Include="Assets\K2Examples\Resources\SpeechGrammar.grxml.txt" />
     <None Include="Assets\K2Examples\Resources\BlurShader3.shader" />
     <None Include="Assets\K2Examples\KinectDemos\ProjectorDemo\Scripts\RoomAliveToolkit\Attribution.txt" />
+    <None Include="Assets\Easy Outline\Shaders\ScreenSpaceOutlineShader.shader" />
     <None Include="Assets\K2Examples\Resources\Body2ColorShader.shader" />
     <None Include="Assets\K2Examples\Resources\Depth2ColorShaderNN.shader" />
     <None Include="Assets\K2Examples\Resources\Color2BodyShaderNN.shader" />
@@ -223,6 +229,7 @@
     <None Include="Assets\K2Examples\Resources\Body2DepthShaderInv.shader" />
     <None Include="Assets\K2Examples\KinectDemos\RecorderDemo\Resources\PlayerGrammar.grxml.txt" />
     <None Include="Assets\K2Examples\Resources\CoordMapper.compute" />
+    <None Include="Assets\Easy Outline\Shaders\MobileBlur.shader" />
     <None Include="Assets\K2Examples\Resources\Depth2ColorShader.shader" />
     <None Include="Assets\K2Examples\Resources\Erode.shader" />
     <None Include="Assets\K2Examples\Resources\BodyShader.shader" />
@@ -249,6 +256,18 @@
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -441,6 +460,21 @@
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Assets/K2Examples/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

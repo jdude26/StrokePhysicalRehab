@@ -63,115 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Cinema Suite\About\Editor\CinemaSuiteWelcome.cs" />
-    <Compile Include="Assets\Cinema Suite\About\Editor\ProductInfo.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackControls\ActorCurveTrackControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackControls\ActorItemTrackControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackControls\AudioTrackControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackControls\DialogueTrackControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackControls\GenericTrackControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackControls\GlobalItemTrackControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackControls\MultiActorCurveTrackControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackControls\ShotTrackControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackGroupControls\ActorTrackGroupControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackGroupControls\CharacterTrackGroupControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackGroupControls\GenericTrackGroupControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackGroupControls\MultiActorTrackGroupControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackItemControls\CinemaActionControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackItemControls\CinemaActorActionControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackItemControls\CinemaActorCurveControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackItemControls\CinemaAudioControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackItemControls\CinemaCurveControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackItemControls\CinemaGlobalActionControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackItemControls\CinemaItemControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackItemControls\CinemaMultiActorCurveControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Controls\TrackItemControls\CinemaShotControl.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\CutsceneInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\CutsceneItemInspectors\ActorClipCurveInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\CutsceneItemInspectors\DisableBehaviourInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\CutsceneItemInspectors\EnableBehaviourInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\CutsceneItemInspectors\LoadLevelEventInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\CutsceneItemInspectors\MemberClipCurveInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\CutsceneItemInspectors\MultiActorClipCurveInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\CutsceneItemInspectors\SendMessageGameObjectInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\CutsceneTriggerInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\GroupInspectors\ActorTrackGroupInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\GroupInspectors\CharacterTrackGroupInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\GroupInspectors\DirectorGroupInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\GroupInspectors\MultiActorTrackGroupInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\TrackInspectors\ActorItemTrackInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\TrackInspectors\AudioTrackInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\TrackInspectors\CurveTrackInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\TrackInspectors\DialogueTrackInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\TrackInspectors\GlobalItemTrackInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\TrackInspectors\MultiCurveTrackInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\TrackInspectors\ShotTrackInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CustomInspectors\TrackItemInspectors\CinemaAudioInspector.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\CutsceneCreatorWindow.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\DirectorSettingsWindow.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\DirectorWindow.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Utility\CutsceneControlHelper.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Utility\CutsceneItemFactory.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Director\System\Editor\Utility\DirectorHelper.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\CapturePipeline\CacheFrameData.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\CapturePipeline\CaptureCache.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\CapturePipeline\InputProfile.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\CapturePipeline\MappingProfile.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\CapturePipeline\MocapFilter.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\CapturePipeline\MocapPipeline.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\CapturePipeline\OutputProfile.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\CinemaMocapProductInfo.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\CinemaMocapSettingsWindow.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\CinemaMocapWindow.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\UI\CinemaMocapLayout.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\UI\Kinect1EditorViewer.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\UI\Kinect2EditorViewer.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\UI\SensorEditorViewer.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\Utility\Attributes.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\Utility\CinemaMocapHelper.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\Utility\CinemaMocapScaleFix.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\Utility\EditorCoroutine.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\Utility\RecordingState.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\Utility\SmoothingOptions.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Core\Editor\Utility\TypeLabelContextData.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\CapturePipeline\Filters\MirrorFilter.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\CapturePipeline\Filters\SkeletonJointsPositionDoubleExponentialFilter.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\CapturePipeline\Filters\TiltCorrectionFilter.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\CapturePipeline\Input\Kinect1InputProfile.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\CapturePipeline\Input\Kinect2InputProfile.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\CapturePipeline\Input\SessionPlaybackInputProfile.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\CapturePipeline\Mapping\Kinect1To20JointColladaMapper.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\CapturePipeline\Mapping\Kinect2To25JointColladaMapper.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\CapturePipeline\Output\Standard20JointSkeleton.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\CapturePipeline\Output\Standard25JointSkeleton.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\CapturePipeline\RecordPipeline.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\CapturePipeline\ReviewPipeline.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Layouts\HorizontalDuoMocapLayout.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Layouts\HorizontalTrioMocapLayout.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Layouts\QuadMocapLayout.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Layouts\SoloMocapLayout.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Layouts\VerticalDuoMocapLayout.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Layouts\VerticalTrioMocapLayout.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Viewers\Kinect1EditorDepthViewer.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Viewers\Kinect1EditorImageViewer.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Viewers\Kinect1EditorSkeletonViewer.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Viewers\Kinect1EditorUsersRadar.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Viewers\Kinect2EditorImageViewer.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Viewers\Kinect2EditorInfraredViewer.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Viewers\Kinect2EditorSkeletonViewer.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Mocap\System\Modules\Editor\Viewers\Kinect2EditorUsersRadar.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Pro Cams\Scripts\Editor\CameraBodyEditor.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Pro Cams\Scripts\Editor\CameraBodyEditorWindow.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Pro Cams\Scripts\Editor\CameraScriptEditors\ShakeCamEditor.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Pro Cams\Scripts\Editor\ImportLensDataWindow.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Pro Cams\Scripts\Editor\Stereo3DEditor.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Pro Cams\Scripts\Editor\Stereo3DEditorWindow.cs" />
-    <Compile Include="Assets\Cinema Suite\Cinema Themes\Editor\CinemaThemesWindow.cs" />
-    <None Include="Assets\Cinema Suite\Cinema Director\System\Editor\Resources\CinemaDirectorInstalledProductInfo.xml" />
-    <None Include="Assets\Cinema Suite\About\Editor\Resources\BaseProductInfo.xml" />
-    <None Include="Assets\Cinema Suite\Cinema Mocap\System\Editor\Resources\CinemaMocapInstalledProductInfo.xml" />
-    <None Include="Assets\Cinema Suite\Cinema Pro Cams\Editor\Resources\CinemaProCamsInstalledProductInfo.xml" />
-    <None Include="Assets\Cinema Suite\Cinema Themes\Editor\Resources\CinemaThemesInstalledProductInfo.xml" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -180,6 +72,18 @@
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -382,15 +286,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="DirectorEditor">
-      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Assets/Cinema Suite/Cinema Director/System/Editor/DirectorControl/DirectorEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="OpenNI.Net">
-      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Assets/Cinema Suite/Cinema Mocap/System/Core/Zigfu/OpenNI.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="ZDK_Editor">
-      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Assets/Cinema Suite/Cinema Mocap/System/Core/Zigfu/ZDK_Editor.dll</HintPath>
-    </Reference>
     <Reference Include="nuitrack.net">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Assets/K2Examples/KinectScripts/Interfaces/Nuitrack/nuitrack.net.dll</HintPath>
     </Reference>
@@ -399,6 +294,27 @@
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Assets/K2Examples/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>
