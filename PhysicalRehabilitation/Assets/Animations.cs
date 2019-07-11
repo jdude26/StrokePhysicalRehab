@@ -6,7 +6,7 @@ public class Animations : MonoBehaviour
 {
     // Start is called before the first frame update
     private Animator anim;
-    private string[] states = new string[] { "Welcome", "Sit", "HandHeart", "LiftElbow", "ExtendLeft", "Armrest", "SitInstructions", "ScootFeet", "LeanForward", "Stand", "ShoulderFeet", "LungeLeft", "StepBackward", "LungeRight", "StepBackward", "Finished" };
+    private string[] states = new string[] { "Welcome", "Sit", "HandHeart", "LiftElbow", "ExtendLeft", "SitInstructions", "ScootFeet", "LeanForward", "Stand", "ShoulderFeet", "LungeLeft", "StepBackward", "LungeRight", "StepBackward", "Finished" };
     private int currentIndex = -1;
 
 

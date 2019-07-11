@@ -270,14 +270,26 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
@@ -290,18 +302,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
-      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
-      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/jared/Desktop/StrokePhysicalTherapy-master/PhysicalRehabilitation/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
