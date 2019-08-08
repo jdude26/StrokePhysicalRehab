@@ -41,7 +41,7 @@ public class clickdrag : MonoBehaviour
             if(x >=500 && y>330) arml.transform.Rotate(0, 0, -mY);  
             else if (x < 450 && y>330) armr.transform.Rotate(0, 0, mY);
             else if(x>=480 && y>200) calfl.transform.Rotate(0, -mX, 0);
-            else if(x <= 480 && y > 200) calfr.transform.Rotate(0, -mX, 0);
+            else if(x <= 480 && y > 200) calfr.transform.Rotate(-mX, 0, 0);
             else if (x >= 480 && y < 200) footl.transform.Rotate(0, mX, 0);
             else if(x <= 480 && y < 200)  footr.transform.Rotate(0, mX, 0);
         }
