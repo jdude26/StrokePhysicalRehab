@@ -107,10 +107,12 @@ public class OutlineSystem : MonoBehaviour
         float widthMod = 1.0f / (1.0f * (1 << downsampleAmount));
         blurMaterial.SetVector("_Parameter", new Vector4(outlineSize * widthMod, -outlineSize * widthMod, 0.0f, 0.0f));
 
+        //previously commented line
         //inBlurMaterial.SetVector("_Parameter", new Vector4(outlineSize * widthMod, -outlineSize * widthMod, 0.0f, 0.0f));
 
         Graphics.Blit(renTexInput, renTexRecolor, outlineMaterial, 0);
         Graphics.Blit(renTexRecolor, renTexDownsample, blurMaterial, 0);
+
 
         for (int i = 0; i < outlineIterations; i++)
         {

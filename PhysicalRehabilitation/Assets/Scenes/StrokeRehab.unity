@@ -364,7 +364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &179215925
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3356,11 +3356,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 118448, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
       propertyPath: outlineStrength
-      value: 1.72
+      value: 8.11
       objectReference: {fileID: 0}
     - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
       propertyPath: outlineColor.r
@@ -3384,11 +3384,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
       propertyPath: outlineSize
-      value: 1.57
+      value: 7.96
       objectReference: {fileID: 0}
     - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
       propertyPath: outlineIterations
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
       propertyPath: downsampleAmount
@@ -3398,6 +3398,14 @@ PrefabInstance:
       propertyPath: blurMaterial
       value: 
       objectReference: {fileID: 2100000, guid: f6b8c14e6b3937d43b6945aeecef73e1, type: 2}
+    - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
+      propertyPath: inBlurMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ddfbf5f81013484b91a27e48b878e37, type: 2}
+    - target: {fileID: 11457692, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
+      propertyPath: outlineMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: c5fe71ae2892ebd4baa49fed5309ad27, type: 2}
     - target: {fileID: 413806, guid: 4489a276a6a54e1408e02695bbd28fb8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
