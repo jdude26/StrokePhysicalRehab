@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 348
+  controlID: 111
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 349
+  controlID: 112
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 350
+  controlID: 113
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -336,20 +336,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jared\Desktop\StrokePhysicalTherapy-master\PhysicalRehabilitation
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 114}
-    m_SelectedIDs: 8c3e0000
-    m_LastClickedID: 16012
-    m_ExpandedIDs: 00000000ca330000343600008c3e00006a46000050490000dc4d00005451000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: cc330000
+    m_LastClickedID: 13260
+    m_ExpandedIDs: 00000000cc330000363600008e3e00006e46000054490000e04d00005c51000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -377,7 +377,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ca330000343600008c3e00006a46000050490000dc4d00005451000000ca9a3b
+    m_ExpandedIDs: 00000000cc330000363600008e3e00006e46000054490000e04d00005c510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -429,7 +429,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 66}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
 --- !u!114 &14
@@ -497,9 +497,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5e5b0000
-      m_LastClickedID: 23390
-      m_ExpandedIDs: 12f4ffff
+      m_SelectedIDs: 8e3d0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -552,16 +552,16 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: 0fce46df462d3614c97c0c59288d1c72
   m_Gizmos: 1
-  m_SceneIsLit: 1
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.6445134, y: -2.127229, z: 13.639517}
+    m_Target: {x: 0.14200002, y: 0.305, z: 0.37}
     speed: 2
-    m_Value: {x: 1.6445134, y: -2.127229, z: 13.639517}
+    m_Value: {x: 0.14200002, y: 0.305, z: 0.37}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -590,13 +590,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0991277, y: 0.019398011, z: -0.0019327555, w: 0.99488443}
+    m_Target: {x: 0.03299415, y: -0.0000036886076, z: -0.0000007236104, w: 0.9994638}
     speed: 2
-    m_Value: {x: 0.09912764, y: 0.019398, z: -0.0019327543, w: 0.99488384}
+    m_Value: {x: -0.03299415, y: 0.0000036886076, z: 0.00000072361036, w: -0.9994638}
   m_Size:
-    m_Target: 15.400003
+    m_Target: 4.400179
     speed: 2
-    m_Value: 15.400003
+    m_Value: 4.400179
   m_Ortho:
     m_Target: 0
     speed: 2
