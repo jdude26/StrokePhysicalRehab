@@ -16,6 +16,7 @@
 	{
 		Cull Off ZWrite Off ZTest Always
 
+		//unity tutorials say this isnt ever read?
 		/*GrabPass {
 			Tags { "LightMode" = "Always" }
 		}*/
@@ -48,9 +49,8 @@
 			v2f o;
 			o.vertex = UnityObjectToClipPos(v.vertex);
 			o.uv = v.uv;
-			//return o;
 
-			
+			//addition of this section breaks something, posssibly uvgrab
 			#if UNITY_UV_STARTS_AT_TOP
 			float scale = -1.0;
 			#else
