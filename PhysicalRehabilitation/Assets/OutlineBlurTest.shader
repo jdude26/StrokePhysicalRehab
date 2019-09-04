@@ -181,23 +181,23 @@ SubShader
 					fixed4 _OutlineCol;
 					float _GradientStrengthModifier;
 
-					fixed4 blurCol = tex2D(_BlurTex, i.uvgrab);
-					fixed4 unBlurCol = tex2D(_MainTex, i.uvgrab);
+					//fixed4 blurCol = tex2D(_BlurTex, i.uvgrab);
+					//fixed4 unBlurCol = tex2D(_MainTex, i.uvgrab);
 					test.col = _OutlineCol;
 					if (_Solid) {
-						if (blurCol.r == 1.0) {
+						//if (blurCol.r == 1.0) {
 							test.col.a = 0.0;
-						}
+						//}
 					}
 					else {
-						test.col.a *= 1.0 - blurCol.r;
+						//test.col.a *= 1.0 - blurCol.r;
 					}
 
 					test.col.a *= _GradientStrengthModifier;
 
-					if (unBlurCol.r == 0.0 && unBlurCol.g == 0.0 && unBlurCol.b == 1.0) {
-						test.col.a = -1;
-					}
+					//if (unBlurCol.r == 0.0 && unBlurCol.g == 0.0 && unBlurCol.b == 1.0) {
+					//	test.col.a = -1;
+					//}
 					return test;
 				}
 		ENDCG
