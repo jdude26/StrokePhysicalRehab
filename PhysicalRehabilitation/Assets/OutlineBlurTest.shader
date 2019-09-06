@@ -5,9 +5,14 @@ Properties
 	_MainTex("Texture", 2D) = "white" {}
 	_Color("Main Color", Color) = (1,1,1,1)
 	_BumpAmt("Distortion", Range(0,128)) = 10
-	_MainTex("Tint Color (RGB)", 2D) = "white" {}
+	//_MainTex("Tint Color (RGB)", 2D) = "white" {}
 	_BumpMap("Normalmap", 2D) = "bump" {}
 	_Size("Size", Range(0, 20)) = 1
+
+	_BlurTex("BlurTexture", 2D) = "white" {}
+	_OutlineCol("OutlineColour", Color) = (0.0,0.0,1.0,1.0)
+	[Toggle] _Solid("Solid Outline", Float) = 0
+	_GradientStrengthModifier("Strength Modifier", Float) = 1.0
 }
 
 //Tags{ "Queue" = "Transparent" "IgnoreProjector" = "True" "RenderType" = "Opaque" }
@@ -175,29 +180,29 @@ SubShader
 
 					//outline
 					sampler2D _MainTex;
-					sampler2D _BlurTex;
+					sampler2D _BlurTex ;
 
 					float _Solid;
 					fixed4 _OutlineCol;
-					float _GradientStrengthModifier;
+					float _GradientStrengthModifier = 1.0;
 
-					//fixed4 blurCol = tex2D(_BlurTex, i.uvgrab);
-					//fixed4 unBlurCol = tex2D(_MainTex, i.uvgrab);
+					fixed4 blurCol = tex2D(_BlurTex, i.uvgrab);
+					fixed4 unBlurCol = tex2D(_MainTex, i.uvgrab);
 					test.col = _OutlineCol;
 					if (_Solid) {
-						//if (blurCol.r == 1.0) {
+						if (blurCol.r == 1.0) {
 							test.col.a = 0.0;
-						//}
+						}
 					}
 					else {
-						//test.col.a *= 1.0 - blurCol.r;
+						test.col.a *= 1.0 - blurCol.r;
 					}
 
 					test.col.a *= _GradientStrengthModifier;
 
-					//if (unBlurCol.r == 0.0 && unBlurCol.g == 0.0 && unBlurCol.b == 1.0) {
-					//	test.col.a = -1;
-					//}
+					if (unBlurCol.r == 0.0 && unBlurCol.g == 0.0 && unBlurCol.b == 1.0) {
+						test.col.a = -1;
+					}
 					return test;
 				}
 		ENDCG
