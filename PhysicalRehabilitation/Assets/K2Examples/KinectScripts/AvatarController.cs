@@ -463,7 +463,11 @@ public class AvatarController : MonoBehaviour
 	/// </summary>
 	/// <param name="UserID">User ID</param>
     public void UpdateAvatar(Int64 UserID)
-    {	
+    {
+        ////////////////////////////////////////////
+        /// if button pressed, don't update, freeze
+
+
 		if(!gameObject.activeInHierarchy) 
 			return;
 
