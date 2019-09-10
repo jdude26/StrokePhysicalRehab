@@ -148,12 +148,15 @@ public class AvatarController : MonoBehaviour
 	private Rect planeRect = new Rect();
 	private bool planeRectSet = false;
 
+    //freeze
+    //Rigidbody Rigidbody;
 
-	/// <summary>
-	/// Gets the number of bone transforms (array length).
-	/// </summary>
-	/// <returns>The number of bone transforms.</returns>
-	public int GetBoneTransformCount()
+
+    /// <summary>
+    /// Gets the number of bone transforms (array length).
+    /// </summary>
+    /// <returns>The number of bone transforms.</returns>
+    public int GetBoneTransformCount()
 	{
 		return bones != null ? bones.Length : 0;
 	}
@@ -348,9 +351,13 @@ public class AvatarController : MonoBehaviour
 
 
 	public void Awake()
-    {	
-		// check for double start
-		if(bones != null)
+    {
+        //freeze
+        //Rigidbody = gameObject.GetComponent<Rigidbody>();
+
+
+        // check for double start
+        if (bones != null)
 			return;
 		if(!gameObject.activeInHierarchy) 
 			return;
@@ -466,9 +473,16 @@ public class AvatarController : MonoBehaviour
     {
         ////////////////////////////////////////////
         /// if button pressed, don't update, freeze
+                //Press V to add constraints on the RigidBody (freeze all positions and rotations)
+        //if (Input.GetKeyDown(KeyCode.V))
+        //{
+            //Freeze all positions and rotations
+        //    Rigidbody.constraints = RigidbodyConstraints.FreezeAll;
+        //}
 
 
-		if(!gameObject.activeInHierarchy) 
+
+        if (!gameObject.activeInHierarchy) 
 			return;
 
 		// Get the KinectManager instance

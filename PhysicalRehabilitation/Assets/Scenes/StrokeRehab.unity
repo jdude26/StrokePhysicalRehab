@@ -4400,38 +4400,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1254022225}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1254022227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254022226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06c52c07402f7274cab64e484b1bddc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPhysicalTherapist: 0
-  playerIndex: 0
-  mirroredMovement: 1
-  verticalMovement: 1
-  externalRootMotion: 1
-  externalHeadRotation: 1
-  externalHandRotations: 1
-  fingerOrientations: 1
-  moveRate: 1
-  smoothFactor: 10
-  offsetNode: {fileID: 60287759}
-  posRelativeToCamera: {fileID: 1551283661}
-  posRelOverlayColor: 0
-  backgroundPlane: {fileID: 0}
-  posRelInvertedZ: 0
-  groundedFeet: 1
-  applyMuscleLimits: 1
-  flipLeftRight: 0
-  verticalOffset: 0
-  forwardOffset: 0
 --- !u!114 &1254022228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4536,6 +4504,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cd6e621b30c3cf459c70e7f48c5ed2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPhysicalTherapist: 0
+  playerIndex: 0
+  mirroredMovement: 1
+  verticalMovement: 1
+  externalRootMotion: 1
+  externalHeadRotation: 1
+  externalHandRotations: 1
+  fingerOrientations: 1
+  moveRate: 1
+  smoothFactor: 10
+  offsetNode: {fileID: 60287759}
+  posRelativeToCamera: {fileID: 1551283661}
+  posRelOverlayColor: 0
+  backgroundPlane: {fileID: 0}
+  posRelInvertedZ: 0
+  groundedFeet: 1
+  applyMuscleLimits: 1
+  flipLeftRight: 0
+  verticalOffset: 0
+  forwardOffset: 0
 --- !u!54 &1254022234
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4654,20 +4642,20 @@ MonoBehaviour:
   isPhysicalTherapist: 0
   playerIndex: 0
   mirroredMovement: 1
-  verticalMovement: 0
+  verticalMovement: 1
   externalRootMotion: 1
-  externalHeadRotation: 0
-  externalHandRotations: 0
-  fingerOrientations: 0
+  externalHeadRotation: 1
+  externalHandRotations: 1
+  fingerOrientations: 1
   moveRate: 1
   smoothFactor: 10
-  offsetNode: {fileID: 0}
-  posRelativeToCamera: {fileID: 0}
+  offsetNode: {fileID: 60287759}
+  posRelativeToCamera: {fileID: 1551283661}
   posRelOverlayColor: 0
   backgroundPlane: {fileID: 0}
   posRelInvertedZ: 0
-  groundedFeet: 0
-  applyMuscleLimits: 0
+  groundedFeet: 1
+  applyMuscleLimits: 1
   flipLeftRight: 0
   verticalOffset: 0
   forwardOffset: 0
@@ -5620,6 +5608,38 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 350518809}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1948534239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948534238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06c52c07402f7274cab64e484b1bddc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPhysicalTherapist: 0
+  playerIndex: 0
+  mirroredMovement: 1
+  verticalMovement: 1
+  externalRootMotion: 1
+  externalHeadRotation: 1
+  externalHandRotations: 1
+  fingerOrientations: 1
+  moveRate: 1
+  smoothFactor: 10
+  offsetNode: {fileID: 60287759}
+  posRelativeToCamera: {fileID: 1551283661}
+  posRelOverlayColor: 0
+  backgroundPlane: {fileID: 0}
+  posRelInvertedZ: 0
+  groundedFeet: 1
+  applyMuscleLimits: 1
+  flipLeftRight: 0
+  verticalOffset: 0
+  forwardOffset: 0
 --- !u!114 &1948534241
 MonoBehaviour:
   m_ObjectHideFlags: 0

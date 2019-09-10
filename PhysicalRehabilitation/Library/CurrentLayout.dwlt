@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 731
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -93,8 +93,8 @@ MonoBehaviour:
     y: 0
     width: 245
     height: 442
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -263,8 +263,8 @@ MonoBehaviour:
     y: 0
     width: 1014
     height: 442
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 17}
@@ -401,20 +401,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/K2Examples/KinectScripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/K2Examples/KinectScripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jared\Desktop\StrokePhysicalTherapy-master\PhysicalRehabilitation
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 578}
-    m_SelectedIDs: ce3b0000
-    m_LastClickedID: 15310
-    m_ExpandedIDs: 00000000ce330000e433000052350000f4350000383600005c3a0000323b0000923d0000923e000052410000be43000072460000584900002c4a0000984b0000e44d00006051000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: d0330000
+    m_LastClickedID: 13264
+    m_ExpandedIDs: 00000000d0330000e633000054350000f63500003a3600005e3a0000343b0000943d0000943e000054410000c0430000744600005a4900002e4a00009a4b0000e64d00006251000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -442,7 +442,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ce330000e433000052350000f4350000383600005c3a0000323b0000923d0000923e000052410000be43000072460000584900002c4a0000e44d000060510000
+    m_ExpandedIDs: 00000000d0330000e633000054350000f63500003a3600005e3a0000343b0000943d0000943e000054410000c0430000744600005a4900002e4a00009a4b0000e64d000062510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ce420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -494,7 +494,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 126}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 264
 --- !u!114 &15
@@ -561,10 +561,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 122}
-      m_SelectedIDs: a4550000
-      m_LastClickedID: 21924
-      m_ExpandedIDs: 8efbffffa4550000
+      scrollPos: {x: 0, y: 90}
+      m_SelectedIDs: bc550000
+      m_LastClickedID: 21948
+      m_ExpandedIDs: 8efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
