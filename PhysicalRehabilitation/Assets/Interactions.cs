@@ -149,7 +149,7 @@ public class Interactions : MonoBehaviour
     private bool planeRectSet = false;
 
     //freeze
-    Rigidbody Rigidbody;
+    //Rigidbody Rigidbody;
 
 
     /// <summary>
@@ -353,7 +353,7 @@ public class Interactions : MonoBehaviour
     public void Awake()
     {
         //freeze
-        Rigidbody = gameObject.GetComponent<Rigidbody>();
+        //Rigidbody = gameObject.GetComponent<Rigidbody>();
 
 
         // check for double start
@@ -474,13 +474,13 @@ public class Interactions : MonoBehaviour
         ////////////////////////////////////////////
         /// if button pressed, don't update, freeze
         //Press V to add constraints on the RigidBody (freeze all positions and rotations)
-        if (Input.GetKeyDown(KeyCode.V))
-        {
+        //if (Input.GetKeyDown(KeyCode.V))
+        //{
             //Freeze all positions and rotations
-            Rigidbody.constraints = RigidbodyConstraints.FreezeAll;
-        }
-        else
-        {
+        //    Rigidbody.constraints = RigidbodyConstraints.FreezeAll;
+        //}
+        //else
+        //{
 
 
 
@@ -579,7 +579,7 @@ public class Interactions : MonoBehaviour
                 // check for limits
                 CheckMuscleLimits();
             }
-        }
+        //}
     }
 
     /// <summary>
