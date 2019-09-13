@@ -47,9 +47,10 @@ public class UserPlaneMover : MonoBehaviour
 			Vector3 deltaUserPos = currentUserPos; // relToInitialPos ? (currentUserPos - initialUserPos) : currentUserPos;
 			Vector3 newPlanePos = initialPlanePos + new Vector3(0f, 0f, deltaUserPos.z);
 
-			transform.position = Vector3.Lerp(transform.position, newPlanePos, smoothFactor * Time.deltaTime);
-		} 
-		else 
+            //transform.position = Vector3.Lerp(transform.position, newPlanePos, smoothFactor * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, newPlanePos, 1);
+        }
+        else 
 		{
 			lastUserId = 0;
 //			initialUserPos = Vector3.zero;
